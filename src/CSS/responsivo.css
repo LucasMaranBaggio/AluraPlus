@@ -21,14 +21,9 @@
         width: 60vw;
     }
 
-    .responsivo {
-        display: flex;
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-
     .dispositivos__lista {
         display: block;
+        text-align: center;
     }
 
     .rodape__lista {
