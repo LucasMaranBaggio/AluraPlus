@@ -1,7 +1,9 @@
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
+        height: auto;
         display: block;
         background-image: none;
+        margin-bottom: 20vh;
     }
 
     .container__imagem {
@@ -15,15 +17,27 @@
     .secundario {
         margin: 0;
         text-align: center;
+        margin-bottom: 20vh;
     }
 
     .secundario__imagem {
         width: 60vw;
     }
 
+    .responsivo {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
     .dispositivos__lista {
-        display: block;
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape {
+        margin: 2em;
     }
 
     .rodape__lista {
